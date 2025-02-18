@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .aqua {
+            background-color: aqua;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .aqua>p:first-child {
+            background-color: black;
+        }
+
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: blue;
+        }
+
+        a:active {
+            background-color: blueviolet;
+        }
+
+        h1 {
+            text-align: center;
+            /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+        color: brown;
+        font-size: xx-large;
+        text-decoration-color: blueviolet;*/
+            color: hsl(200, 50%, 70%);
+        }
+    </style>
+</head>
+
+<body>
+    
+    <table border="2px">
+        <thead>
+        <tr>
+            <th>S.NO</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>karthik</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>kar</td>
+        </tr>
+    </tbody>
+    </table>
+
+
+
+    <div>
+        <h1> hi iam Karthik</h1>
+    </div>
+    <div class="aqua">
+        <p> hey! iam Karthik</p>
+        <p>hi!</p>
+
+    </div>
+    <div id="yellow">
+        <p> my brother name is parasu</p>
+    </div>
+    </div>
+    <a href="https://www.google.com">Google</a>
+
+    <table cellspacing="50px">
+        <tbody>
+            <tr>
+                <td><img src="karthik.jpg" alt="pic" width="150px" height="200px"></td>
+                <td><h1>KARTHIK</h1> <br><h2> Student of MBU</h2> <br><h2>Studying 1st yaer</h2></td>
+            </tr>
+        </tbody>
+        </table>
+        <hr>
+        <form action="mailto:mannemkarthik@gmail.com" method="post" enctype="">
+            <label>Name</label>
+            <input type="text" name="Name" value=""><br>
+            <label>Email</label>
+            <input type="email" name="Email" value=""><br>
+            <label>favorite color</label>
+            <input type="color" name="color" value=""><br>
+            <input type="submit">
+
+        </form>
+</body>
+
+</html>
